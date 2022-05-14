@@ -1,0 +1,134 @@
+ img{
+    width: 60%;
+    margin-top: 8px;
+    align-items: center;
+}
+
+hr{
+        top: 20px;
+        border: none;
+        height: 12px;
+        background: black;
+        margin-bottom: 50px;
+}
+.brand{
+    margin-left: 10%;
+    color: white;
+}
+.feed{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  
+    width: auto;
+}
+.card{
+    padding: 5px 10px;
+}
+.nav{
+    color: white;
+}
+.news .container{
+height: 50%;
+justify-content:flex-start;
+}
+.news{
+    display: flex;
+    justify-content: center;
+}
+#feed{
+    justify-content: center;
+    margin-top: 15px;
+}
+#first-row{
+
+height: max-content;
+display: block;
+margin: 0px;
+padding: 10px 20px;
+align-items: center;
+
+text-align: left;
+}
+#first-row h2{
+    margin-top: 20px;
+    color: red;
+}
+.danger{
+    color: rgb(209, 56, 56);
+    font-weight: 700;
+    margin-left: 50px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+#first-row img{ 
+    width: 100%;
+    padding-right: 10px;
+    }
+#second-row{
+
+    height: max-content;
+    color: black;
+    margin: 0px;
+    padding-top: 10px;
+    }
+#second-row a{
+    color: black;
+}
+
+#subNav-Title{
+    font-weight: 700;
+    padding: 0px 100px 
+}
+/* mustsee */
+.hrdivider {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .hrdivider h2{
+    position: absolute;
+    top: -15px;
+    background: #fff;
+    padding: 0 0px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+@media (max-width: 650px) { 
+.nav{
+    display: none;
+}
+.carousel-caption {
+    display: none;
+}
+#subNav{
+    display: none;
+}
+.card{
+    width: 100%;
+}
+   
+}
+
+ @media (max-width: 850px) { 
+    #first-row{
+        display: block;
+        }
+        #first-row img{ 
+        width: 100%;
+        }
+    #second-row{
+        display: none;
+ }
+ .feed{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0%;
+    width: auto;
+}
+}
+ 
