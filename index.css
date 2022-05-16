@@ -1,6 +1,5 @@
  img{
     width: 60%;
-    margin-top: 8px;
     align-items: center;
 }
 
@@ -28,10 +27,7 @@ hr{
 .nav{
     color: white;
 }
-.news .container{
-height: 50%;
-justify-content:flex-start;
-}
+
 .news{
     display: flex;
     justify-content: center;
@@ -51,15 +47,13 @@ align-items: center;
 text-align: left;
 }
 #first-row h2{
-    margin-top: 20px;
     color: red;
 }
 .danger{
     color: rgb(209, 56, 56);
     font-weight: 700;
     margin-left: 50px;
-    margin-bottom: -10px;
-    margin-top: 10px;
+ 
 }
 
 #first-row img{ 
@@ -88,6 +82,10 @@ text-align: left;
     width: 100%;
   }
   
+  .navbar-brand img{
+      margin-left: 15px;
+      width: 50%;
+  }
   .hrdivider h2{
     position: absolute;
     top: -15px;
@@ -96,23 +94,50 @@ text-align: left;
     font-weight: bold;
     font-size: 25px;
   }
+  .feed, #LatestNews, #MostRead, #mustSee, #sports{
+    margin-top: 60px;
+}
+/* ==== MostRead ==== */
+#MostRead span{
+font-size:xx-large;
+font-weight: 700;
+color: red;
+margin-right: 20px;
+}
+#MostRead a{
+    color: black;
+    padding: -12px 5px;
+    font-size: medium;
+}
+
+#MostRead a:hover{
+    color: red;
+    
+}
+
 
 @media (max-width: 650px) { 
-.nav{
-    display: none;
-}
+
 .carousel-caption {
     display: none;
 }
-#subNav{
-    display: none;
-}
+
 .card{
     width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.img-fluid{
+    display: none;
 }
    
 }
-
+@media (max-width: 1000px) { 
+    .img-fluid{
+        display: none;
+    }
+}
  @media (max-width: 850px) { 
     #first-row{
         display: block;
@@ -130,5 +155,6 @@ text-align: left;
     margin-left: 0%;
     width: auto;
 }
+
 }
  
